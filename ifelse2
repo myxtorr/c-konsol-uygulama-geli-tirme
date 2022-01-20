@@ -1,0 +1,15 @@
+Console.Write(” Dereceyi Giriniz = “);
+int a = Convert.ToInt16(Console.ReadLine());
+if (a == 28)
+{
+Console.Write(“Hava Ilık!”);
+}
+else if (a < 28)
+{
+Console.Write(“Hava Soğuk!”);
+}
+else if (a > 28)
+{
+Console.Write(“Hava Sıcak!”);
+}
+Console.ReadKey();

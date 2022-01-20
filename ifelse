@@ -1,0 +1,17 @@
+ int sayi;           
+ Console.Write("Bir sayı giriniz   :");           
+ sayi = Convert.ToInt32(Console.ReadLine());            
+if (sayi < 0)            
+{                
+//şart sağlanınca yazılacaklar                
+Console.WriteLine("Sayı negatiftir");            
+}           
+ else if(sayi==0)            
+{               
+ Console.WriteLine("Sayı 0  dır");           
+}            
+else            
+{               
+ Console.WriteLine("Sayı pozitiftir");           
+ }            
+Console.ReadLine();

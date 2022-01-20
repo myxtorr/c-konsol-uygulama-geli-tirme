@@ -1,0 +1,97 @@
+
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+ 
+int sayi1,sayi2;
+char opt;
+double sonuc;
+ 
+ 
+Console.WriteLine("\n\tMenu");
+Console.WriteLine("\nTOPLAMA İÇİN + TUŞUNA BASIN");
+Console.WriteLine("ÇIKARMA İÇİN - TUŞUNA BASIN");
+Console.WriteLine("ÇARPMA İÇİN * TUŞUNA BASIN");
+Console.WriteLine("BÖLME İÇİN + TUŞUNA BASIN");
+ 
+Console.Write("\n\n Birinci Sayıyı Girin :");
+sayi1 = Convert.ToInt32(Console.ReadLine());
+ 
+Console.Write(" İkinci Sayıyı Girin :");
+sayi2 = Convert.ToInt32(Console.ReadLine());
+ 
+Console.Write("\nİŞLEM YAPMAK İÇİN BİR OPERATÖR SEÇİN:\t");
+opt = Convert.ToChar(Console.ReadLine());
+ 
+if (opt == '+')
+{
+sonuc = sayi1 + sayi2;
+Console.WriteLine("\n{0} + {1} = {2}", sayi1, sayi2, sonuc);
+}
+else if (opt == '-')
+{
+sonuc = sayi1 - sayi2;
+Console.WriteLine("\n{0} - {1} = {2}", sayi1, sayi2, sonuc);
+}
+else if (opt == '*')
+{
+sonuc = sayi1 * sayi2;
+Console.WriteLine("\n{0} x {1} = {2}", sayi1, sayi2, sonuc);
+}
+else if (opt == '/')
+{
+sonuc =(double) sayi1 / sayi2;
+Console.WriteLine("\n{0} / {1} = {2}", sayi1, sayi2, sonuc);
+}
+else
+{
+Console.WriteLine("ÜZGÜNÜN YANLIŞ BİR OPERATÖR GİRDİNİZ!");
+}
+ 
+ 
+Console.ReadKey();
+ 
